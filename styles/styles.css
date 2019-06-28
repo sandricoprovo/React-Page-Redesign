@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+#main-doc {
+	display: grid;
+	grid-template-areas: "sidebar main";
+	grid-template-columns: 15% 85%;
+	height: 100vh;
+}
+
+#navbar {
+	grid-area: sidebar;
+	/* border: 2px solid red; */
+	padding-left: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-header {
+	display: block;
+	align-self: left;
+	font-size: 50px;
+}
+
+.version_number {
+	padding-top: 0px;
+	margin: 0px;
+}
+
+.header_info {
+	text-align: left;
+}
+
+ul {
+	text-align: left;
+	padding: 0px;
+}
+
+.nav-link {
+	display: block;
+	padding-top: 10px;
+}
+
+#sections-main {
+	grid-area: main;
+	border: 2px solid black;
+	padding-left: 5px;
+}
