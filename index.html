@@ -74,10 +74,25 @@
 						this.state, React can maintain internal data and re-render the
 						markup
 					</p>
-					<code></code>
-					<code></code>
-					<code></code>
-					<code></code>
+	<code>render()</code> <br>
+	<code>this.props</code> <br>
+	<code>this.state</code> <br>
+	<pre><code>
+	class HelloMessage extends React.Component {
+	render() {
+	return (
+	<div>
+	Hello {this.props.name}
+	</div>
+	);
+	}
+	}
+					
+	ReactDOM.render(
+	<HelloMessage name="Taylor" />,
+	document.getElementById('hello-example')
+	);
+	</code></pre>
 				</section>
 
 				<section id="jsx" class="main-section">
