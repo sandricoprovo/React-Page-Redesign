@@ -74,25 +74,10 @@
 						this.state, React can maintain internal data and re-render the
 						markup
 					</p>
-	<code>render()</code> <br>
-	<code>this.props</code> <br>
-	<code>this.state</code> <br>
-	<pre><code>
-	class HelloMessage extends React.Component {
-	render() {
-	return (
-	<div>
-	Hello {this.props.name}
-	</div>
-	);
-	}
-	}
-					
-	ReactDOM.render(
-	<HelloMessage name="Taylor" />,
-	document.getElementById('hello-example')
-	);
-	</code></pre>
+					<code>render()</code> <br />
+					<code>this.props</code> <br />
+					<code>this.state</code> <br />
+					<code></code>
 				</section>
 
 				<section id="jsx" class="main-section">
@@ -102,11 +87,23 @@
 						It's a syntax extension of JavaScript, and in React it creates
 						elements.
 					</p>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li>
+						React embraces the fact that rendering logic is coupled with
+						rendering UI logic.
+					</li>
+					<li>
+						Because react uses components, it can neatly couple these types of
+						logic instead of having to combine them through different files.
+					</li>
+					<li>
+						Using JSX with React isn't required, but it helps keep the code more
+						legible visually.
+					</li>
+					<li>
+						Curly braces ({}) allow us to input JavaScript variables into React
+						using JSX.
+					</li>
+					<li>After the JSX is compiled it shows as a JavaScript object.</li>
 					<code></code>
 					<code></code>
 				</section>
