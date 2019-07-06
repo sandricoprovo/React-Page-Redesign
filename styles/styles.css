@@ -20,7 +20,7 @@ body {
 
 #navbar {
 	grid-area: sidebar;
-	padding-left: 5px;
+	padding-left: 8px;
 	display: flex;
 	flex-direction: column;
 	background-color: var(--react-grey);
@@ -30,18 +30,23 @@ body {
 	text-decoration: none;
 	color: white;
 	opacity: 0.8;
+	font-family: "Roboto", sans-serif;
 }
 
 .main-header {
 	display: block;
 	align-self: left;
 	font-size: 50px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
 	color: var(--react-blue);
 }
 
 .version_number {
 	padding-top: 0px;
 	margin: 0px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
 	color: var(--react-blue);
 	opacity: 0.4;
 }
@@ -50,6 +55,7 @@ body {
 	text-align: left;
 	color: white;
 	opacity: 0.8;
+	font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -78,10 +84,12 @@ ul {
 
 section {
 	line-height: 10px;
+	font-family: "Roboto", sans-serif;
 }
 
 section > header {
 	font-size: 2.2rem;
+	font-weight: 700;
 	padding: 40px 0px 5px 0px;
 }
 
