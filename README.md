@@ -1,6 +1,6 @@
 # React Page Redesign
 
-This page is a part of my journey in completing the FreeCodeCamp responsive web design certificate. I decided to try and redesign the **React** homepage so that I could learn more of the React basics while working on a project and practicing what I already now.
+This page is a part of my journey in completing the FreeCodeCamp responsive web design certificate. I decided to try and redesign the **React** homepage so that I could learn more of the React basics while working on a project and practicing what I already know.
 
 ## About My Design
 
